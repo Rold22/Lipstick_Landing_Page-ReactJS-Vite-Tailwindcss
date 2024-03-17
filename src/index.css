@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .hover1{
+    @apply transition-all duration-300 ease-linear
+  }
+  .main{
+    color:#f60b0b;
+  }
+ /*  CSS */
+  .clip-border {
+    clip-path: polygon(100% 0, 100% 73%, 0 100%, 0 100%, 0 28%);
+  }
+    .clip-border2 {
+      clip-path: polygon(100% 0, 100% 73%, 27% 73%, 0 0);
+    }
+    .clip-border3{
+      clip-path: polygon(100% 0, 100% 100%, 0 61%, 0 0);
+    }
+    .ball{
+      background-image: linear-gradient(to right top, #ff0093, #f600a3, #e800b4, #d600c7, #bd00d9);
+    }
+        .ball2 {
+          background-image: linear-gradient(to right top, #ff0000, #ff0033, #f90052, #ec006d, #d90084);
+        }
+    .p-text{
+      font-size: 1.25rem;
+      padding-top: 1rem;
+      letter-spacing: 0.5px;
+      color: white;
+    }
+    .gradient1{
+      background-image: linear-gradient(to right top, #570611, #7e081d, #a7092b, #d20739, #ff0049);
+    }
+        .gradient2 {
+          background-image: linear-gradient(to right top, #3f040c, #640718, #880823, #d20739, #ff0049);
+        }
+    .text{
+      color: white;
+      letter-spacing: 0.5px;
+      text-align: center;
+      font-size: 2rem;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+        .text2 {
+          color: white;
+          letter-spacing: 0.5px;
+          font-size: 2rem;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+        .border{
+            border-radius: 25px;
+            border: 5px solid #1c1c1c;
+            box-shadow: 0 0 20px 0px #3b3b3b;
+        }
+            .btn {
+              margin-bottom: 1rem;
+              margin-top: 1rem;
+              font-size: medium;
+              font-weight: bold;
+              letter-spacing: 1px;
+              color: white;
+              border: #f6a200;
+              padding: 10px 50px;
+              border-radius: 5px;
+              text-align: center;
+              background-image: linear-gradient(to right top, #570611, #7e081d, #a7092b, #d20739, #ff0049);
+              cursor: pointer;
+            }
+            .btn:hover{
+              background-image: linear-gradient(to right top, #921d2d, #ae112e, #b31134, #870929, #7c0325);
+            }
+}
+
